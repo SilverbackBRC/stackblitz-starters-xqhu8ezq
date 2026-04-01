@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & About Us - ABC Fitness Studio</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="logo.png" alt="ABC Fitness Studio Logo" width="150">
+        <h1>ABC Fitness Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">About Us / Contact</a></li>
+                <li><a href="custom.html">Custom</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- About Us Section -->
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to ABC Fitness Studio! We were founded with a passion for delivering exceptional fitness experiences to our community. Our team works tirelessly to ensure that every high-energy gym session, calming yoga class, and custom personal training plan meets our rigorous quality standards.</p>
+        </section>
+
+        <!-- Contact & Order Form Section -->
+        <section>
+            <h2>Contact Us & Custom Orders</h2>
+            <p>Use the form below to leave us feedback or to request a custom order.</p>
+            
+            <form action="#" method="POST">
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" required><br><br>
+
+                <label for="emailAddress">Email Address:</label><br>
+                <input type="email" id="emailAddress" name="emailAddress" required><br><br>
+
+                <label for="inquiryType">Type of Inquiry:</label><br>
+                <select id="inquiryType" name="inquiryType">
+                    <option value="feedback">General Feedback</option>
+                    <option value="custom_order">Custom Training Plan / Merch Order</option>
+                    <option value="support">Customer Support</option>
+                </select><br><br>
+
+                <label for="messageDetails">Feedback / Custom Order Details:</label><br>
+                <textarea id="messageDetails" name="messageDetails" rows="6" cols="50" required></textarea><br><br>
+
+                <button type="submit">Submit Message</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <hr>
+        <p>&copy; 2026 ABC Fitness Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
